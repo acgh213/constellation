@@ -1,0 +1,14 @@
+{
+  "OSTCleanup": {
+    "MinAgeDays": 90,
+    "MinSizeGB": 1
+  },
+  "PartitionFinder": {
+    "MinFreePct": 10,
+    "TopN": 10
+  },
+  "IPScanner": {
+    "TimeoutMS": 250,
+    "Ports": [22, 80, 443]
+  }
+}
